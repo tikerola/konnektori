@@ -1,0 +1,10 @@
+POST http://localhost:3001/api/chat
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRpbW8iLCJpZCI6IjVkY2MzMmY3MDc1ODgxMmE3MDdiODc3NyIsImlhdCI6MTU3Mzc0MDYwOX0.cRx1u_KjFcmXEOQvMWC7eXV35vMPdyWAIQkB8Tfx-z8
+Content-Type: application/json
+
+{
+  "message": {
+    "user": "timo",
+    "message": "moi vaan"
+  }
+}

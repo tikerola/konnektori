@@ -1,0 +1,8 @@
+POST http://localhost:3001/api/user/addToFavorites
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRpbW8iLCJpZCI6IjVkZDNmNTgxNjRhZWIwMzA4NGU5NjhmZiIsImlhdCI6MTU3NDE3MjE5OX0.JWTAl0bpzsa1ittKtbenxgEVZ3A_CQexDA9XEE8LdXo
+Content-Type: application/json
+
+{
+  "username": "hanna",
+  "operation": "remove"
+}

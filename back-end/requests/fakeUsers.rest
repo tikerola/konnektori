@@ -1,0 +1,6 @@
+POST http://localhost:3001/developer/fake
+Content-Type: application/json
+
+{
+  "fakeAmount": 50
+}

@@ -1,0 +1,12 @@
+
+POST http://localhost:3001/api/messages
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRpbW8iLCJpZCI6IjVkYzcyMzdhMzFmNmI4MWY3MDA4ODlhMyIsImlhdCI6MTU3MzM3NDMxN30.mBePU-4ATw83a9OZVSXoDfp_UFYQeEpVe7QuKv3W8H8
+Content-Type: application/json
+
+{
+  "title": "fak juu",
+  "content": "just kidding",
+  "author": "timo",
+  "receiver": "hanna"
+}
+

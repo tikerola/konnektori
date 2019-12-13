@@ -1,0 +1,7 @@
+DELETE  http://localhost:3001/api/messages/delete
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRpbW8iLCJpZCI6IjVkY2MzMmY3MDc1ODgxMmE3MDdiODc3NyIsImlhdCI6MTU3NDE1MjMyM30.GuK7RCfKImABAu_wSgCUANMajODPkANeJpTNbGggono
+Content-Type: application/json
+
+{
+  "id": "5dcdbd55f4379b3390496462"
+}

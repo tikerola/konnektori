@@ -1,0 +1,7 @@
+POST http://localhost:3001/api/user/edit
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRpbW8iLCJpZCI6IjVkYzcyMzdhMzFmNmI4MWY3MDA4ODlhMyIsImlhdCI6MTU3MzMzMTkyOX0.ZuWwVqLlBPRv0f4Iw8HAjBhUE-slFCUBKVnye-HvKXQ
+Content-Type: application/json
+
+{
+  "profileText": "täh"
+}

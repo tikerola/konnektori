@@ -1,0 +1,7 @@
+POST http://localhost:3001/api/profiles/searchOne
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Imhhbm5hIiwiaWQiOiI1ZGNkNWRjZTUzNTY0YzMyMDQ1YTZjMTEiLCJpYXQiOjE1NzQxMTIwNzV9.9c-CviE33XL0B46YlbrLoT_YOEX-wNBlylXBqUFtvi8
+Content-Type: application/json
+
+{
+  "username": "timo"
+}
