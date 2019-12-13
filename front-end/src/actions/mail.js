@@ -49,7 +49,7 @@ export const reply = (messageId, content) => {
       })
 
     } catch (error) {
-      dispatch(setNotification('Unable to send mail'))
+      dispatch(setNotification('Viestiä ei pystytty lähettämään'))
     }
   }
 }

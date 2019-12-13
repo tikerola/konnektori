@@ -42,7 +42,7 @@ export const searchProfile = (username, history) => {
       history.push(`/search/profiles/${username}`)
     }
     catch (error) {
-      dispatch(setNotification('No such username'))
+      dispatch(setNotification('Käyttäjätunnusta ei löytynyt'))
 
     }
   }

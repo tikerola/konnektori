@@ -37,7 +37,7 @@ export const login = credentials => {
       dispatch(setUnreadMailCount())
 
     } catch (error) {
-      dispatch(setNotification('Wrong username or password'))
+      dispatch(setNotification('Väärä käyttäjätunnus tai salasana'))
     }
   }
 }

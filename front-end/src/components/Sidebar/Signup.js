@@ -14,15 +14,15 @@ import moment from 'moment'
 const genders = [
   {
     value: '',
-    label: 'Gender'
+    label: 'Sukupuoli'
   },
   {
     value: 'male',
-    label: 'Male'
+    label: 'Mies'
   },
   {
     value: 'female',
-    label: 'Female'
+    label: 'Nainen'
   }
 ]
 
@@ -132,37 +132,37 @@ export const Signup = props => {
       resetPassword()
       resetConfirmPassword()
       props.toggleRegister()
-      props.setNotification('Registration successfull')
+      props.setNotification('Rekisteröinti onnistui')
     } catch (error) {
-      props.setNotification('Username already taken')
+      props.setNotification('Käyttäjätunnus on jo olemassa')
     }
   }
 
   const inputValid = () => {
 
     if (!username.value || !birthday || !gender.value || !password.value || !confirmPassword.value) {
-      props.setNotification('All fields must be filled')
+      props.setNotification('Kaikki kentät täytyy täyttää')
       return false
     }
 
     if (password.value !== confirmPassword.value) {
-      props.setNotification('Passwords wont match')
+      props.setNotification('Salasanat eivät ole samat')
       return false
     }
 
     if (password.value.length < 6) {
-      props.setNotification('Password must be at least 6 characters')
+      props.setNotification('Salasanan täytyy olla vähintää 6 merkkiä')
       return false
     }
 
     if (username.value.length < 4) {
-      props.setNotification('Username must be at least 4 characters')
+      props.setNotification('Käyttäjätunnuksen täytyy olla vähintään 4 merkkiä')
       return false
     }
     const calculatedAge = moment().diff(birthday, 'years')
 
     if (calculatedAge < 18 || calculatedAge > 99) {
-      props.setNotification('Age must be between 18 and 99')
+      props.setNotification('Iän pitää olla väliltä 18 - 99')
       return false
     }
 

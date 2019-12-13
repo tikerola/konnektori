@@ -90,7 +90,7 @@ export const Login = props => {
     e.preventDefault()
 
     if (!username.value || !password.value) {
-      props.setNotification('You need to provide both values')
+      props.setNotification('Sinun pitää täyttää molemmat kentät')
       return
     }
     
