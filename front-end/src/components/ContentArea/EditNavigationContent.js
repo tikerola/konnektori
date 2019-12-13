@@ -48,7 +48,7 @@ const MailNavigationContent = props => {
           activeClassName={classes.active}
         >
           <EditIcon className={classes.icon} />
-          Lisää profiilin kuvaus
+          Muokkaa profiilia
         </NavLink></p>
       <p className={classes.navLink} onClick={() => setShowFileUpload(!showFileUpload)}>
         <PhotoIcon className={classes.icon} />

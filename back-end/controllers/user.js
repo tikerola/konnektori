@@ -21,7 +21,7 @@ userRouter.post('/signup', async (req, res, next) => {
     gender,
     age,
     image: { imageUrl: gender === 'male' ? 'https://image.flaticon.com/icons/svg/145/145867.svg' : 'https://image.flaticon.com/icons/svg/145/145852.svg' },
-    profileText: 'Nothing to show just yet'
+    profileText: 'Ei vielä profiilikuvausta'
   })
 
   try {

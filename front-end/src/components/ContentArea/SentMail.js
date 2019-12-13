@@ -62,11 +62,11 @@ const SentMail = ({ sent, deleteMail }) => {
 
   if (sent.length === 0)
     return <div className={classes.container}>
-      <h1>No Sent Mail</h1>
+      <h1>Ei viestejä</h1>
     </div>
 
   return <div className={classes.container}>
-    <h1>Sent Mail</h1>
+    <h1>Lähetetyt viestit</h1>
     <Paper className={classes.root}>
       <Table className={classes.table} aria-label="simple table">
         <TableHead>

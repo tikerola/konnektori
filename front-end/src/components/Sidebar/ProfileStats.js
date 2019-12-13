@@ -40,7 +40,7 @@ const ProfileStats = ({ profile, fromFavorites }) => {
       <Paper className={classes.paper} elevation={10}>
         <h2>Henkilötiedot</h2>
         <p>Tunnus: {profile.username}</p>
-        <p>Sukupuoli: {profile.gender}</p>
+        <p>Sukupuoli: {profile.gender === 'male' ? 'mies' : 'nainen'}</p>
         <p>Ikä: {profile.age}</p>
       </Paper>
     </div>

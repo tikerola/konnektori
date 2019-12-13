@@ -62,11 +62,11 @@ const Inbox = ({ inbox, deleteMail, mailRead }) => {
 
   if (inbox.length === 0)
     return <div className={classes.container}>
-      <h1>Inbox is Empty</h1>
+      <h1>Ei viestejä</h1>
     </div>
 
   return <div className={classes.container}>
-    <h1>Inbox</h1>
+    <h1>Saapuneet viestit</h1>
     <Paper className={classes.root}>
       <Table className={classes.table} aria-label="simple table">
         <TableHead>

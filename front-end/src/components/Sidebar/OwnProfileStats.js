@@ -60,7 +60,7 @@ const OwnProfileStats = ({ user, fetchInbox, fetchSent, countOfUnread, openChat 
       <Paper elevation={10} className={classes.paper}>
         <h2>Käyttäjätiedot</h2>
         <p>Tunnus: {user.username}</p>
-        <p>Sukupuoli: {user.gender}</p>
+        <p>Sukupuoli: {user.gender === 'male' ? 'mies' : 'nainen'}</p>
         <p>Ikä: {user.age}</p>
       </Paper>
     </div>

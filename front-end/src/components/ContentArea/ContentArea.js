@@ -29,7 +29,7 @@ const useStyles = makeStyles({
   welcome: {
     width: '100%',
     height: '100%',
-    backgroundImage: "url('/assets/images/tausta4.jpg')",
+    backgroundImage: "url('/assets/images/tausta.jpg')",
     backgroundSize: 'cover'
   }
 })
