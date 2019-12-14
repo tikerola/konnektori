@@ -1,7 +1,7 @@
 
 export const theme = {
-  bodyBackgound: '#7F00FF',
-  background: 'rgba(255, 255, 255, 0.2)',
+  bodyBackgound: '#5F0C38',
+  background: '#5F0C38',
   navigationBackgound: 'rgba(0, 0, 0, 0.8)',
   sidebarBackground: 'rgba(0, 0, 0, 0.5)',
   searchbarBackground: 'rgba(0, 0, 0, 0.7)',
